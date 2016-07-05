@@ -1,7 +1,10 @@
 var ReactDOM = require('react-dom');
 var React = require('react');
+var data = require('./data.json');
+var Student = require('./Student.js');
 
 ReactDOM.render(
-  <h1>Hello, world!</h1>,
+  <Student/>,
   document.getElementById('example')
 );
+

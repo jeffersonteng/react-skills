@@ -1,0 +1,121 @@
+module.exports = [{
+  "id": 1,
+  "first_name": "Theresa",
+  "last_name": "Berry",
+  "email": "tberry0@tamu.edu",
+  "major": "Computer Science"
+}, {
+  "id": 2,
+  "first_name": "Clarence",
+  "last_name": "Roberts",
+  "email": "croberts1@ow.ly",
+  "major": "Computer Science"
+}, {
+  "id": 3,
+  "first_name": "Beverly",
+  "last_name": "Thompson",
+  "email": "bthompson2@economist.com",
+  "major": "French Literature"
+}, {
+  "id": 4,
+  "first_name": "Martha",
+  "last_name": "Lynch",
+  "email": "mlynch3@digg.com",
+  "major": "French Literature"
+}, {
+  "id": 5,
+  "first_name": "Stephen",
+  "last_name": "Carter",
+  "email": "scarter4@quantcast.com",
+  "major": "English"
+}, {
+  "id": 6,
+  "first_name": "Laura",
+  "last_name": "Reid",
+  "email": "lreid5@php.net",
+  "major": "Computer Science"
+}, {
+  "id": 7,
+  "first_name": "Jose",
+  "last_name": "Chavez",
+  "email": "jchavez6@webs.com",
+  "major": "English"
+}, {
+  "id": 8,
+  "first_name": "Joshua",
+  "last_name": "Hernandez",
+  "email": "jhernandez7@accuweather.com",
+  "major": "Psychology"
+}, {
+  "id": 9,
+  "first_name": "Scott",
+  "last_name": "Lawson",
+  "email": "slawson8@loc.gov",
+  "major": "Computer Science"
+}, {
+  "id": 10,
+  "first_name": "Justin",
+  "last_name": "Richardson",
+  "email": "jrichardson9@nationalgeographic.com",
+  "major": "Computer Science"
+}, {
+  "id": 11,
+  "first_name": "Angela",
+  "last_name": "Jacobs",
+  "email": "ajacobsa@tuttocitta.it",
+  "major": "Math"
+}, {
+  "id": 12,
+  "first_name": "Jessica",
+  "last_name": "Rivera",
+  "email": "jriverab@xing.com",
+  "major": "Math"
+}, {
+  "id": 13,
+  "first_name": "Kevin",
+  "last_name": "Reynolds",
+  "email": "kreynoldsc@godaddy.com",
+  "major": "Math"
+}, {
+  "id": 14,
+  "first_name": "Melissa",
+  "last_name": "Stewart",
+  "email": "mstewartd@symantec.com",
+  "major": "English"
+}, {
+  "id": 15,
+  "first_name": "Juan",
+  "last_name": "Reed",
+  "email": "jreede@acquirethisname.com",
+  "major": "Computer Science"
+}, {
+  "id": 16,
+  "first_name": "Virginia",
+  "last_name": "Hill",
+  "email": "vhillf@theatlantic.com",
+  "major": "Math"
+}, {
+  "id": 17,
+  "first_name": "Jimmy",
+  "last_name": "Fox",
+  "email": "jfoxg@gravatar.com",
+  "major": "French Literature"
+}, {
+  "id": 18,
+  "first_name": "George",
+  "last_name": "Jackson",
+  "email": "gjacksonh@seesaa.net",
+  "major": "Math"
+}, {
+  "id": 19,
+  "first_name": "Juan",
+  "last_name": "Lopez",
+  "email": "jlopezi@google.co.uk",
+  "major": "Psychology"
+}, {
+  "id": 20,
+  "first_name": "Karen",
+  "last_name": "Ryan",
+  "email": "kryanj@abc.net.au",
+  "major": "Math"
+}];
