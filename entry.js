@@ -4,23 +4,9 @@ var data = require('./data.json');
 var majors = require('./majors.json');
 var Student = require('./Student.js');
 var Major = require('./Major.js');
+var List = require('./List.js');
 
 ReactDOM.render(
-    <div>
-      {majors.map((major) => {
-          return <Major key={major} major={major}/>
-      })}
-    </div>,
-    document.getElementById('majors')
-);
-
-ReactDOM.render(
-  (
-    <div>
-      {data.map((student) => {
-          return <Student key={student.id} student={student}/>
-      })}
-    </div>
-  ),
-  document.getElementById('example')
+    <List data={data} majors={majors}/>,
+    document.getElementById('main')
 );
