@@ -2,7 +2,7 @@ var React = require('react');
 
 var Major = React.createClass({
   handleClick: function(major) {
-    console.log('hello: ' + major);
+    this.props.onMajorClick(major);
   },
 
   render: function() {

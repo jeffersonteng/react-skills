@@ -3,8 +3,12 @@ var Major = require('./Major.js');
 var Student = require('./Student.js');
 
 var List = React.createClass({
-  handleClick: function(major) {
-    console.log('hello: ' + major);
+  getInitialState: function() {
+    return { selectedMajor: null };
+  },
+
+  handleMajorClick: function(major) {
+    this.setState({ selectedMajor: major });
   },
 
   render: function() {
@@ -12,11 +16,13 @@ var List = React.createClass({
 
     return (<div>
       {majors.map((major) => {
-          return <Major key={major} major={major}/>;
+          return <Major key={major} major={major} onMajorClick={this.handleMajorClick}/>;
       })}
 
-      {data.map((student) => {
-          return <Student key={student.id} student={student}/>
+      {data.filter((student) => { 
+        return student.major === this.state.selectedMajor;
+      }).map((student) => {
+        return <Student key={student.id} student={student}/>
       })}
     </div>);
   }
